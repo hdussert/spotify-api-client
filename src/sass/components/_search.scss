@@ -1,0 +1,17 @@
+.search {
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  &-bar {
+    margin: 15px;
+    background-color: $white;
+    font-size: $fontSizeS;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    &:focus {
+      outline: none;
+    }
+  }
+}

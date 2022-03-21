@@ -1,0 +1,42 @@
+.track {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  transition: background-color 200ms;
+  &:hover {
+    background-color: $secondaryLight;
+  }
+
+  & > img {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+  }
+
+  &-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:$white;
+    flex: 1;
+
+    min-width: 0px;
+    &-title {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    &-artist {
+      color: $grey;
+      font-size: $fontSizeS;
+    }
+  }
+
+  &-duration {
+    margin-left: auto;
+    color: $grey;
+  }
+}

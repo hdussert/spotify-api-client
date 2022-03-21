@@ -1,0 +1,10 @@
+.spotify {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  &-dashboard {
+    flex: 1;
+    display: flex;
+    overflow: hidden;
+  }
+}

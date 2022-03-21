@@ -1,0 +1,46 @@
+* {
+  font: $font;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: $secondary;
+  overflow: hidden;
+}
+
+a {
+  // color: $primary;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: $fontSizeXXL;
+}
+
+h2 {
+  font-size: $fontSizeXL;
+}
+
+
+h3 {
+  font-size: $fontSizeL;
+}
+
+::-webkit-scrollbar {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba($white, .3);
+  border-radius: 10px;
+  // background-clip: padding-box;
+}

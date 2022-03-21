@@ -1,0 +1,12 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  & > a {
+    background-color: $primary;
+    color: $white;
+    padding: 1em;
+    border-radius: 2em;
+  } 
+}

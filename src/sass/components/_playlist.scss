@@ -1,0 +1,36 @@
+.playlist {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow: auto;
+  &-header {
+    display: flex;
+    align-items: center;
+    background-color: $secondaryDark;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    &-img {
+      width: 128px;
+      height: 128px;
+      object-fit: cover;
+    }
+    
+    &-infos {
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      min-width: 0px;
+      &-name {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-size: $fontSizeXXL;
+        color: $white;
+      }
+      &-nb {
+        color: $grey;
+      }
+    }
+  }
+}

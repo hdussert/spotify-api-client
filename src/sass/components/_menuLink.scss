@@ -1,0 +1,21 @@
+.menu-link {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  gap: 10px;
+  padding: 10px;
+  color: $grey;
+  
+  & svg {
+    width: 24px;
+    height: 24px;
+    fill: $grey;
+  }
+
+  &:hover {
+    color: $white;
+    & svg {
+      fill: $white;
+    }
+  }
+}
